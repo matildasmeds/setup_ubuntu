@@ -1,9 +1,9 @@
 #!/bin/bash
+# Some setups on top of xubuntu 18.04 LTS
 # yes Y | sudo apt-get update
 # yes Y | sudo apt-get upgrade
 
-
-declare -a progs=('vim' 'gimp' 'keepassx' 'vlc' 'git' 'npm' 'yarn' 'nautilus' 'firefox' 'silversearcher-ag' 'rubocop' 'ruby' 'usb-creator-gtk' 'redis' 'mariadb-client*' 'mariadb-server*' 'tmux' 'cheese' 'gnome-disk-utility')
+declare -a progs=('vim' 'gimp' 'keepassx' 'vlc' 'git' 'npm' 'yarn' 'nautilus' 'firefox' 'silversearcher-ag' 'rubocop' 'ruby' 'usb-creator-gtk' 'redis' 'mariadb-client*' 'mariadb-server*' 'tmux' 'cheese' 'gnome-disk-utility' 'neofetch')
 
 for program in "${progs[@]}"
 do

@@ -42,9 +42,10 @@ rm /tmp/skypeforlinux-64.deb
 # Dark theme
 
 ## Keyboard > Application Shortcuts
-# vlc   - Super+V
-# skype - Super+S
+# vlc         - Super+V
+# skype       - Super+S
 # xfce4-notes - Super+N
+# keepassx    - Super+K
 
 ## Window Manager > Keyboard
 # Move window to upper (etc) workspace - Shift+Ctrl+Alt+Arrow

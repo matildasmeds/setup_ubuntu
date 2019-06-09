@@ -20,16 +20,8 @@ wget https://go.skype.com/skypeforlinux-64.deb -O /tmp/skypeforlinux-64.deb
 yes Y | sudo apt install /tmp/skypeforlinux-64.deb
 rm /tmp/skypeforlinux-64.deb
 
-# Setup java 8 - this might not behave very nicely at all as a script
-# as the installer requires manual steps
-# echo | sudo add-apt-repository ppa:webupd8team/java
-# sudo apt-get update
-# yes Y | sudo apt-get install oracle-java8-installer
-# yes Y | sudo apt-get install oracle-java8-set-default
-# cat >> /etc/environment <<EOL
-# JAVA_HOME=/usr/lib/jvm/java-8-oracle
-# JRE_HOME=/usr/lib/jvm/java-8-oracle/jre
-# EOL
+# Setup java 11
+# https://tecadmin.net/install-oracle-java-11-ubuntu-18-04-bionic/
 
 ### Manual steps
 ## Firefox
@@ -52,7 +44,8 @@ rm /tmp/skypeforlinux-64.deb
 # Tile window to the top left (etc)    - Super+Alt+Arrow
 
 ## Panel > Items
-# Window Menu plugin
+# Window Menu # configure workspace number
+# Workspace Switcher # to configure rows
 
 # TODO
 #  - Add Put to viewport bindings, perhaps with compiz

@@ -20,4 +20,7 @@ wget https://go.skype.com/skypeforlinux-64.deb -O /tmp/skypeforlinux-64.deb
 yes Y | sudo apt install /tmp/skypeforlinux-64.deb
 rm /tmp/skypeforlinux-64.deb
 
-
+# Install fzf (fuzzy finder)
+git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+~/.fzf/install
+rm ~/.fzf

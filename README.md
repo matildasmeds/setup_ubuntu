@@ -10,6 +10,9 @@ Some setup scripts for fresh Xubuntu 18.04.2 install
 
 
 ## Manual steps
+Shell
+* Add line `chsh -s $(which zsh)` to .bashrc to use zsh as default shell
+
 Firefox
 * Firefox: Addons - Privacy Badger, Facebook Container
 * Firefox: Preferences > Privacy & Security - Send "Do Not Track" signal always, Don't save logins

@@ -38,3 +38,7 @@ Panel > Items
 
 XPS
 * See xps folder
+
+## TODO
+* How to move windows to another workspace?
+* Could something be done about XPS hibernation issue?

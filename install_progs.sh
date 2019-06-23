@@ -22,5 +22,4 @@ rm /tmp/skypeforlinux-64.deb
 
 # Install fzf (fuzzy finder)
 git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
-~/.fzf/install
-rm ~/.fzf
+yes Y | ~/.fzf/install

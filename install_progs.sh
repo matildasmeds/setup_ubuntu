@@ -3,7 +3,7 @@
 # yes Y | sudo apt-get update
 # yes Y | sudo apt-get upgrade
 
-declare -a progs=('vim' 'gimp' 'keepassx' 'vlc' 'git' 'npm' 'yarn' 'nautilus' 'firefox' 'silversearcher-ag' 'rubocop' 'ruby' 'usb-creator-gtk' 'redis' 'mariadb-client*' 'mariadb-server*' 'tmux' 'cheese' 'gnome-disk-utility' 'neofetch' 'rvm' 'openjdk-8-jdk' 'zsh')
+declare -a progs=('vim' 'gimp' 'keepassx' 'vlc' 'git' 'npm' 'yarn' 'nautilus' 'firefox' 'silversearcher-ag' 'rubocop' 'ruby' 'usb-creator-gtk' 'redis' 'mariadb-client*' 'mariadb-server*' 'tmux' 'cheese' 'gnome-disk-utility' 'neofetch' 'rvm' 'openjdk-8-jdk' 'freeplane')
 
 for program in "${progs[@]}"
 do

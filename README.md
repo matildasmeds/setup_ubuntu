@@ -11,6 +11,8 @@ Some setup scripts for fresh Xubuntu 18.04.2 install
 
 ## Manual steps
 
+Install flake8 - with sudo -H or no sudo?
+
 Firefox
 * Firefox: Addons - Privacy Badger, Facebook Container
 * Firefox: Preferences > Privacy & Security - Send "Do Not Track" signal always, Don't save logins
@@ -39,4 +41,3 @@ XPS
 
 ## TODO
 * How to move windows to another workspace?
-* Could something be done about XPS hibernation issue?
